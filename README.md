@@ -51,19 +51,19 @@ Login
 
 POST → http://localhost:3001/login
 
-<img width="921" height="169" alt="image" src="https://github.com/user-attachments/assets/f7c07ce3-6050-495e-b5bd-a65af5214297" />
+<img width="921" height="169" alt="image" src="https://github.com/user-attachments/assets/c9e804d2-2b5e-469c-9f0d-5a3942ac8c15" />
 
 Ruta protegida
 
 GET → http://localhost:3001/private
 
-<img width="921" height="198" alt="image" src="https://github.com/user-attachments/assets/aca8d9fd-6c4b-4ecc-82b0-cd5fbb9ec070" />
+<img width="921" height="198" alt="image" src="https://github.com/user-attachments/assets/05a2c9a1-33f9-40a3-8501-8eea278ddc87" />
 
 Logout
 
 POST → http://localhost:3001/logout
 
-<img width="921" height="125" alt="image" src="https://github.com/user-attachments/assets/3c4b127e-48f1-45c7-9bc1-df3427d401a5" />
+<img width="921" height="125" alt="image" src="https://github.com/user-attachments/assets/0df4228f-9de7-4470-afa8-0dc2d8712eb7" />
 
 ⚠️ Manejo de errores
 400 → datos incompletos
