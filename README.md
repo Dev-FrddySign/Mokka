@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mokka
 Ecommerce  trabajo AIEP
 
