@@ -37,7 +37,7 @@ const Contenido = () => {
         ? productsData.filter(p => p.category === filter)
         : productsData
 
-    // 🔥 CAMBIO AQUÍ: filtros actualizados
+    
     const categories = ["grano", "instantaneo", "capsulas", "bebidas"]
 
     return (

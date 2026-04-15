@@ -100,7 +100,7 @@ const Testimonials = () => {
                     Lo que dicen nuestros clientes
                 </h1>
 
-                {/* 💥 CONTENEDOR FIJO */}
+                {/*CONTENEDOR FIJO */}
                 <div className="relative max-w-2xl mx-auto mb-16 h-[260px]">
 
                     {testimonialsData.map((t, i) => (
@@ -140,7 +140,7 @@ const Testimonials = () => {
 
                 </div>
 
-                {/* 🔘 INDICADORES */}
+                {/* INDICADORES */}
                 <div className="flex justify-center mb-16 gap-2">
                     {testimonialsData.map((_, i) => (
                         <span

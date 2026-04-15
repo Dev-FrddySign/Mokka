@@ -39,7 +39,7 @@ export const CartProvider = ({ children }) => {
         setCart(res.data)
     }
 
-    // 🔥 FIX CLAVE
+
     const clearCart = async () => {
         await axios.delete('http://localhost:3001/cart')
         setCart([])

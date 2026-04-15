@@ -18,7 +18,7 @@ const users = [
     { id: 2, username: 'user', password: 'abcd' }
 ]
 
-// 🔑 LOGIN
+// LOGIN
 app.post('/login', (req, res) => {
 
     try {
@@ -60,7 +60,7 @@ app.post('/login', (req, res) => {
         })
 
     } catch (error) {
-        // 🔥 ERROR 500 → ERROR INTERNO
+        // ERROR 500 → ERROR INTERNO
         res.status(500).json({
             message: 'Error interno del servidor'
         })
@@ -137,7 +137,7 @@ app.post('/cart', (req, res) => {
     try {
         const item = req.body
 
-        // 🔥 ERROR 400 → ITEM INVÁLIDO
+        // ERROR 400 → ITEM INVÁLIDO
         if (!item || !item.id || !item.name || !item.price) {
             return res.status(400).json({
                 message: 'Producto inválido'

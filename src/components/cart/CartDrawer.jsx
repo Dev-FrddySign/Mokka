@@ -63,7 +63,7 @@ export default function CartDrawer() {
 
             setCartSnapshot(cart)
 
-            // 🔥 LIMPIA REAL
+            
             clearCart()
 
         }, 4000)
@@ -216,7 +216,7 @@ export default function CartDrawer() {
                                             className="w-full p-2 bg-white/10" />
                                     </div>
 
-                                    {/* 🔥 PROPINA */}
+                                    {/* PROPINA */}
                                     <div className="flex justify-between mt-2">
                                         {[0, 0.1, 0.15].map(val => (
                                             <button
